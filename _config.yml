@@ -2,7 +2,7 @@
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink: /:categories/:year/:month/:day/:title 
 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".orig"]
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".orig", "githubpage.sublime-project", "githubpage.sublime-workspace"]
 #auto: true
 pygments: true
 
@@ -15,8 +15,8 @@ author :
   name : Oscar Cardoso
   email : darkson.xd@gmail.com
   github : oscarcardoso
-  twitter : darksonxd
-  feedburner : feedname
+  googleplus : 111011256838485291859
+  linkedin : oscarjuliocardoso
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
