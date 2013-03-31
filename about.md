@@ -2,10 +2,11 @@
 layout: page
 title: "About"
 description: ""
+group: navigation
 ---
 {% include JB/setup %}
 
-# My name is Oscar Cardoso.
+# My name is Oscar Julio Cardoso.
 
 I'm a mexican programmer working for Gameloft making games for the android platform.
 

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hello World!
+title: Code Notes!
 tagline: A blog about code notes by Oscar Cardoso
 ---
 {% include JB/setup %}
@@ -8,9 +8,10 @@ tagline: A blog about code notes by Oscar Cardoso
 <ul class="posts">
   {% for post in site.posts %}
 	<article>
-		<h2>{{ post.title }}</h2>
-		<p>{{ post.content }}</p>
-		<p><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">Comments</a></p>
+		<h2><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h2>
+		<h3><span>{{ post.date | date_to_string }}</span></h3>
+		{{ post.content }}
+		<p><a href="{{ BASE_PATH }}{{ post.url }}">Comments</a></p>
 	</article>
   {% endfor %}
 </ul>
