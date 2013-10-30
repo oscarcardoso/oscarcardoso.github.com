@@ -11,7 +11,7 @@ tagline: A blog about code notes by Oscar Cardoso
 		<h2><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h2>
 		<h3><span>{{ post.date | date_to_string }}</span> &#187; <span>{% for tag in post.tags %} <a href="{{ BASE_PATH }}tags.html#{{tag}}-ref">{{tag}}</a> {% endfor %}</span></h3>
 		{{ post.content }}
-		<p><a href="{{ BASE_PATH }}{{ post.url }}">Comments</a></p>
+		<p><a href="{{ BASE_PATH }}{{ post.url }}#disqus_thread">Comments</a></p>
 	</article>
   {% endfor %}
 </ul>
